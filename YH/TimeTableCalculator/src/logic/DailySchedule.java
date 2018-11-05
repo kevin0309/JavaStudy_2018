@@ -2,14 +2,14 @@ package logic;
 
 public class DailySchedule {
 
-	private int[][] time;
+	private boolean[][] time;
 
 	public DailySchedule() {
 		super();
-		this.time = new int[24][60];
+		this.time = new boolean[24][60];
 	}
 
-	public int[][] getTime() {
+	public boolean[][] getTime() {
 		return time;
 	}
 
