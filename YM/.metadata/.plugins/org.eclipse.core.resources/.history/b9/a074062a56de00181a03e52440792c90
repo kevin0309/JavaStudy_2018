@@ -1,0 +1,6 @@
+import java.util.*;
+
+public class TimeTable {
+	public void Print();
+	public 
+}
