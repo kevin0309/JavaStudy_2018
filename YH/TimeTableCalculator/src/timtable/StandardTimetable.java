@@ -6,10 +6,21 @@ public class StandardTimetable implements Timetable {
 
 	private ArrayList<TimetableDay> schedule;
 	private ArrayList<Lecture> lectures;
+	private double start;
+	private double end;
 
 	public StandardTimetable(ArrayList<TimetableDay> schedule) {
 		super();
 		this.schedule = schedule;
+		this.start = 24;
+		this.end = 0;
+		
+		for (TimetableDay day : schedule) {
+			if (day.getStartHour() < start)
+				start = day.getStartHour();
+			if (day.getEndHour() > end)
+				end = day.getEndHour();
+		}
 	}
 
 	public ArrayList<TimetableDay> getSchedule() {
@@ -36,6 +47,14 @@ public class StandardTimetable implements Timetable {
 					hour+=element.getLength();
 				}
 			}
+	}
+	
+	public double getStart() {
+		return start;
+	}
+
+	public double getEnd() {
+		return end;
 	}
 
 	public void print() {
