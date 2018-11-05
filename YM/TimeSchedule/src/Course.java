@@ -1,0 +1,48 @@
+//강의정보
+//강의이름, 교수이름, CourseBoundary(수업 요일,시작~끝시간)
+/*
+ * ArrayList<...> name = new ArrayList<>();
+ * 1) name.add();
+ * 2) name.remove();
+ */
+
+import java.util.*;
+
+public class Course {
+	private String name; //과목이름
+	private String Prof; //교수이름
+	private ArrayList<CourseBoundary> Cb;
+	
+	//생성자
+	public Course(String name, String prof, ArrayList<CourseBoundary> Cb) {
+		super();
+		this.name = name;
+		this.Prof = prof;
+		this.Cb = Cb;
+	}
+
+	//getter&setter
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getProf() {
+		return Prof;
+	}
+
+	public void setProf(String prof) {
+		Prof = prof;
+	}
+
+	public ArrayList<CourseBoundary> getCb() {
+		return Cb;
+	}
+
+	public void setCb(ArrayList<CourseBoundary> Cb) {
+		this.Cb = Cb;
+	}
+
