@@ -5,6 +5,5 @@ public class IsEmptyCalc {
 	private ArrayList<Course> Cb;
 	private ArrayList<TimeTablesDays> Cons;
 	
-	//...
 	
 }
