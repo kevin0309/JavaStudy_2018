@@ -1,0 +1,6 @@
+package timeTablePackage;
+
+public class timeTableDay {
+	//block을 더쪼개본다면?
+	private char tempday[]= {'월','화','수','목','금'};
+}

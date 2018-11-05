@@ -1,0 +1,12 @@
+package timeTablePackage;
+
+public class CalculateStartEnd {
+
+	public void Calculate(TimeTable a,String target) {
+		
+		for(int i=0;i<5;i++) {
+			for(int j=0;j<24;)
+		}
+			
+	}
+}

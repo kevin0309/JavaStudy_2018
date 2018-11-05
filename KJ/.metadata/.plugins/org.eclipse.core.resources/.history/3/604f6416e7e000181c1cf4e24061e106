@@ -1,0 +1,30 @@
+package timeTablePackage;
+
+public class TimeBlock {
+
+	private char day;//날짜
+	private int start,end;
+	private int period;//교시
+	private String lecture;//과목
+	
+	public char getDay() {
+		return day;
+	}
+	public void setDay(char day) {
+		this.day = day;
+	}
+	public int getPeriod() {
+		return period;
+	}
+	public void setPeriod(int period) {
+		this.period = period;
+	}
+	public String getLecture() {
+		return lecture;
+	}
+	public void setLecture(String lecture) {
+		this.lecture = lecture;
+	}
+	
+	
+}

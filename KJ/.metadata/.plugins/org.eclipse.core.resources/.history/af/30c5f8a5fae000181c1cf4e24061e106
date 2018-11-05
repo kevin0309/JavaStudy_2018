@@ -1,0 +1,14 @@
+package timeTablePackage;
+
+public class timeTableLecture {
+
+	String lecture;
+
+	public String getLecture() {
+		return lecture;
+	}
+
+	public void setLecture(String lecture) {
+		this.lecture = lecture;
+	}
+}

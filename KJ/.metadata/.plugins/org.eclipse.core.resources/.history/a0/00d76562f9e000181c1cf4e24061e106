@@ -1,0 +1,7 @@
+package timeTablePackage;
+
+public class UserData {
+	String name;
+	int studentId;
+	char Sex;
+}

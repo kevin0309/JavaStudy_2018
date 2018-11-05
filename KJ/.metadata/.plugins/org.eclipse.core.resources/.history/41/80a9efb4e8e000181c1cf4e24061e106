@@ -1,0 +1,8 @@
+package timeTablePackage;
+
+public class startEnd {
+
+	public startEnd() {
+		
+	}
+}

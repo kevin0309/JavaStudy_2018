@@ -1,0 +1,6 @@
+package timeTablePackage;
+
+public class startEnd {//교시를 받아 시간계산
+
+	
+}

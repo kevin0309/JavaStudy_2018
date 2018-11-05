@@ -1,0 +1,8 @@
+package timeTablePackage;
+
+public class CalculateStartEnd {
+
+	public void Calculate(TimeTable a,String target) {
+		
+	}
+}

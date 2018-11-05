@@ -1,0 +1,13 @@
+package timeTablePackage;
+
+public class TimeTable {
+	private TimeBlock[][] timeTableArr=new TimeBlock[5][24];
+	private int start,end;
+	private char tempday[]= {'월','화','수','목','금'};
+	
+	public TimeTable() {
+		for(int i=0;i<5;i++)
+			for(int j=0;j<24;j++)
+				timeTableArr[i][j].setDay('월');
+	}
+}
